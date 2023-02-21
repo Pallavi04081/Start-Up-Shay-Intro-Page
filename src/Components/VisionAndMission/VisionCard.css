@@ -1,0 +1,103 @@
+
+.queryCardContainer{
+    margin-left: 20px;
+}
+
+.CardCon {
+    display: grid;
+   grid-template-columns: auto auto auto;
+    margin-bottom: 144px
+}
+
+
+.QueryCard {
+    width: 33.33%;
+    height: 466px;
+    margin: auto;
+    border-radius: 25px;
+    background: #B7A3DD;
+    display: flex;
+    margin-right: 20px;
+    flex-direction: column;
+}
+
+#heading {
+    width: 100%;
+    left: 108px;
+    top: 2001px;
+    border-radius: nullpx;
+    font-family: Poppins;
+    font-size: 5vh;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 42px;
+}
+
+p {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 23px;
+    width: 60%;
+}
+
+.coverImage {
+    height: 50%;
+    background-image: url(../../../public/card2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.headingCard {
+    height: 50%;
+    margin-left: 23px
+}
+
+
+@media screen and (max-width:700px) {
+    
+.QueryCon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 144px
+}
+
+.QueryCard {
+   width: 80%;
+   margin-bottom: 20px;
+}
+
+#heading {
+    width: 100%;
+    font-size: 5.5vh;
+    line-height: 40px;
+}
+
+
+p {
+    font-size: 20px;
+}
+
+}
+
+
+@media screen and (max-width:500) {
+    
+    .QueryCard {
+        width: 100%;
+        margin-bottom: 20px;
+     }
+
+
+     .queryCardContainer{
+        margin:"auto"
+     }
+}

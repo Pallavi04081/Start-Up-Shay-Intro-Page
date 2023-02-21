@@ -1,0 +1,129 @@
+.cardContainer {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 162px;
+    margin-bottom: 150px;
+    background-color: white;
+}
+
+.paracontainer {
+    width:60%;
+    margin: 45px;
+    margin-left: 32px;
+}
+
+.Heading {
+    width: 80%;
+    height: 60px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3vw;
+    line-height: 60px;
+    color: #000000;
+}
+
+.p {
+    left: 90px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-Size:18px;
+    line-height: 15px;
+    margin-left: 20px;
+    color: #000000
+}
+
+.Button {
+    width: 190px;
+    height: 49px;
+    left: 60px;
+    background: #6D44BC;
+    border-radius: 40px;
+    margin-left: 10px;
+    margin-top: 30px;
+    border: none;
+}
+
+.ButtonFont {
+    width: 110px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0em;
+    margin: auto;
+    color: white;
+}
+
+.Card {
+
+    width: 278px;
+    height: 192px;
+    left: 882px;
+    top: 1595px;
+
+
+
+}
+
+/* card images */
+
+.imageContainer{
+    width: 40%;
+}
+
+
+.img1 {
+    width: 27.8%;
+    height: 19.2%;
+}
+
+.paracontainer{
+    margin-right:35px;
+    width:50%
+}
+
+.imageContainer{
+    width: 50%;
+}
+
+@media screen and (max-width:900px) {
+
+  
+
+    .Heading {
+     font-size: 3.5vw;
+     width: 100%;
+    }
+} 
+
+
+@media screen and (max-width:700px) {
+     
+
+    .imageContainer{
+        display: none;
+    }
+
+    
+    .paracontainer{
+        width: 100%;
+        text-align: center;
+    }
+
+    .Heading{
+        font-size: 6vw;
+        width: 100%;
+    }
+
+   .p{
+    width: 100%;
+    font-size: 4vw;
+    text-align: center;
+   }
+   
+}

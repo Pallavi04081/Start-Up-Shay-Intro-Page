@@ -1,0 +1,85 @@
+.CategoriesCard {
+    height: 180px;
+    width: 150px;
+    border-radius: 25px;
+    margin-left: 20px;
+    background-image: url("../../../public/fig.png");
+}
+
+.innerRectangle {
+    position: relative;
+    width: 150px;
+    height: 44px;
+    top: 76%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 25px 25px;
+}
+
+.innerRectangle p {
+    position: relative;
+    height: 24px;
+    top: 12px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.heading1 {
+    height: 38px;
+    width: 317px;
+    left: 85px;
+    top: 639px;
+    border-radius: nullpx;
+    font-family: 'Poppins';
+    margin: 10px;
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 38px;
+    margin-left: 20px;
+    color: black
+}
+
+
+.Card1 {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    -ms-overflow-style: none
+}
+
+.Card1::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+
+@media screen  and (max-width:600px){
+    .CategoriesCard{
+        height: 140px;
+        width: 120px;
+        box-sizing: border-box;
+        margin-left: 5px;
+    }
+
+    .innerRectangle{
+        width: 120px;
+        height: 60px;
+        top:60%
+    }
+
+    .innerRectangle p{
+        margin: auto;
+    }
+
+
+}

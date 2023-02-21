@@ -1,0 +1,22 @@
+  
+  .seperator {
+    width: 100%;
+    border-top: none;
+  }
+  
+  .controls-wrapper {
+    width: 100%;
+  }
+  
+  .carousel-wrapper {
+    width: 100%;
+  }
+  
+ .carousel-wrapper button{
+    size:"50px"
+ }
+
+  .rec-carousel-item:focus {
+    outline: none;
+    box-shadow: inset 0 0 1px 0px violet;
+  }

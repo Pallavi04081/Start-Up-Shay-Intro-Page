@@ -1,0 +1,168 @@
+
+.WWRmainContainer{
+    width:100%;
+    background-color:#F8F7FF;
+    margin-top:120px;
+}
+
+.WWRCardContainer{
+    display: flex;
+     flex-direction: row;
+     box-sizing: border-box;
+     padding-top: 70px;
+}
+
+.WWRCardBody{   
+    width: 60%;
+    border-color: blue;
+    margin-top: 120px;
+}
+
+.WWRImageContainer{
+    width:40%;
+}
+
+.WWRhead{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 1.5vw;
+ color:  #6D44BC;
+ text-align: center;
+}
+
+.parbody{  
+width: 517px;
+}
+.WWRparagraph{
+width: 100%;
+font-family: 'Poppins';
+font-style: normal;
+font-size: 12px;
+line-height: 27px;
+ color: black;
+ text-align: justify;
+
+}
+.Dbutton{
+    width: 135px;
+    height: 46px;
+    background: #6D44BC;
+    border-radius: 40px;
+}
+.Dtitale{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 60px;
+    /* identical to box height, or 240% */
+    
+    
+    color: #FFFFFF;
+    
+}
+
+@media screen and (max-width:900px){
+    
+
+    .body{
+        width: 100%;
+    }
+
+    .WWRCardContainer{
+         flex-direction: column;
+         margin-left: 0px;
+        
+    }
+    
+    
+    .WWRhead{
+        font-size: 3vw;
+         width: 100%;
+         text-align: center;
+        }
+
+        .Dbutton{
+            width: 40%;
+            height: 73px;
+            background: #6D44BC;
+            border-radius: 40px;
+        }
+
+   .WWRCardBody{   
+    width: 100%;
+    border-color: blue;
+     }
+
+     .WWRImageContainer{
+        margin:auto;
+        margin-top: 30px;
+  }
+
+     .head{
+        text-align: center;
+    }
+
+     .WWRparagraph{
+        width: 70%;
+        text-align: center;
+        margin: auto;
+    }
+    
+    .buttonContainer{
+        display: flex;
+        justify-content:center;
+    }
+
+}
+
+@media screen and (max-width:700px) {
+
+    .WWRCardContainer{
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         margin-left: 0px;
+    }
+ 
+    .WWRCardBody{   
+        width: 100%;
+        border-color: blue;
+    }
+    
+    .WWRImageContainer{
+        width: 80%;
+    }
+
+    .WWRhead{
+        font-size: 3.5vw;
+    }
+
+    .WWRparagraph{
+        width: 90%;
+        text-align: center;
+    }
+    
+    .buttonContainer{
+        display: flex;
+        justify-content:center;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .WWRImageContainer{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .WWRImageContainer{
+        width: 70%;
+    }
+    .WWRhead{
+        font-size: 4vw;
+    }
+
+}

@@ -1,0 +1,157 @@
+
+.bussinessCardContainer{
+    display: flex;
+     flex-direction: row;
+     box-sizing: border-box;
+     padding-left: 6%;
+    padding-right: 6%;   
+    padding-top: 80px;
+}
+
+.bussincessCardBody{   
+    width: 40%;
+    border-color: blue;
+}
+
+.bussinessImageContainer{
+    width:60%;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 30px;
+}
+
+.head{
+font-family:'Work Sans';
+font-style: normal;
+font-weight: bold;
+font-size: 3vw;
+ color: #2D3891;
+ width:90%
+}
+
+.parbody{  
+width: 517px;
+}
+.paragraph{
+font-family: 'Poppins';
+font-style: normal;
+font-size: 14px;
+line-height: 27px;
+ color: black;
+
+}
+.Dbutton{
+    width: 135px;
+    height: 46px;
+    background: #6D44BC;
+    border-radius: 40px;
+}
+.Dtitale{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 60px;
+    /* identical to box height, or 240% */
+    
+    
+    color: #FFFFFF;
+    
+}
+
+@media screen and (max-width:900px){
+    
+    .mainContainer{
+        height: 450px;
+    }
+
+
+
+    .bussinessCardContainer{
+         flex-direction: column;
+         margin-left: 0px;
+        
+    }
+    
+    
+    .head{
+        font-size: 3vw;
+         width: 100%;
+         text-align: center;
+        }
+
+        .Dbutton{
+            width: 40%;
+            height: 73px;
+            background: #6D44BC;
+            border-radius: 40px;
+        }
+
+   .bussincessCardBody{   
+    width: 100%;
+    border-color: blue;
+     }
+
+     .bussinessImageContainer{
+        margin:auto;
+        margin-top: 30px;
+        width: 80%;
+  }
+
+
+     .bussinessparagraph{
+        width: 70%;
+        text-align: center;
+        margin: auto;
+    }
+    
+    .buttonContainer{
+        display: flex;
+        justify-content:center;
+    }
+
+}
+
+@media screen and (max-width:700px) {
+
+    .bussinessCardContainer{
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         margin-left: 0px;
+    }
+ 
+    .bussinessCardBody{   
+        width: 100%;
+        border-color: blue;
+    }
+    
+
+
+    .head{
+        font-size: 3.5vw;
+    }
+
+    .bussinessparagraph{
+        width: 90%;
+        text-align: center;
+    }
+    
+    .buttonContainer{
+        display: flex;
+        justify-content:center;
+    }
+
+}
+
+
+@media screen and (max-width:500px) {
+
+    .head{
+        font-size: 4vw;
+    }
+
+    .mainContainer{
+        height:500px;
+    }
+}

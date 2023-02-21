@@ -1,0 +1,49 @@
+
+.contactContainer{
+    display:felex;
+    flex-direction:column;
+    padding:25px;
+    background:#6D44BC;
+    color:white;
+    border-radius:25px;
+    width:45%
+}
+
+.Contactinfoheading{
+    font-size:36px;
+    text-align: center;
+}
+
+@media screen and (max-width:900px){
+    .contactContainer{
+        width: 70%;
+        background: white;
+        color: black;
+        margin-top: 50px;
+    }
+
+    .Contactinfoheading{
+        color: #6D44BC;
+        text-align: left;
+    }
+
+    .iframe{
+      display: none;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .contactContainer{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:500px){
+    .contactContainer{
+        width:100%;
+    }
+    .Contactinfoheading{
+        font-size: 28px;
+        text-align: center;
+    }
+}

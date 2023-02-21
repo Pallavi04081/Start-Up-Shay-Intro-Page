@@ -1,0 +1,179 @@
+
+.ShoppingmainContainer{
+    width:100%;
+    padding-right: 6%;
+    background-color:white;
+}
+
+.ShopingCardContainer{
+    display: flex;
+     flex-direction: row;
+     box-sizing: border-box;
+     padding-top: 70px;
+     padding-bottom: 39px;
+     width: 90%;
+     float: right;
+}
+
+.ShopingCardBody{   
+    width: 50%;
+    border-color: blue;
+    padding-top: 30px;
+    margin-left: 50px;
+}
+
+.ShopingImageContainer{
+    width:50%;
+}
+
+.Shopinghead{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 2vw;
+line-height: 35px;
+ color:  #2D3891;
+ width: 50%;
+ letter-spacing: 1%;
+}
+
+.parbody{  
+width: 517px;
+}
+.Shopingparagraph{
+width: 75%;
+font-family: 'Poppins';
+font-style: normal;
+font-size: 14px;
+line-height: 27px;
+ color: black;
+ letter-spacing: 1px;
+}
+.Dbutton{
+    width: 135px;
+    height: 46px;
+    background: #6D44BC;
+    border-radius: 40px;
+}
+.Dtitale{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 60px;
+    /* identical to box height, or 240% */
+    
+    
+    color: #FFFFFF;
+    
+}
+
+@media screen and (max-width:900px){
+    
+    .mainContainer{
+        height: 450px;
+    }
+
+    .body{
+        width: 100%;
+    }
+
+    .ShopingCardContainer{
+         flex-direction: column;
+         margin-left: 0px;
+        
+    }
+    
+    
+    .Shopinghead{
+        font-size: 3vw;
+         width: 100%;
+         text-align: center;
+        }
+
+        .Dbutton{
+            width: 40%;
+            height: 73px;
+            background: #6D44BC;
+            border-radius: 40px;
+        }
+
+   .ShopingCardBody{   
+    width: 100%;
+    border-color: blue;
+     }
+
+     .ShopingImageContainer{
+        margin:auto;
+        margin-top: 30px;
+        }
+
+     .head{
+        text-align: center;
+    }
+
+     .Shopingparagraph{
+        width: 70%;
+        text-align: center;
+        margin: auto;
+    }
+    
+    .buttonContainer{
+        display: flex;
+        justify-content:center;
+    }
+
+}
+
+@media screen and (max-width:700px) {
+
+    .ShopingCardContainer{
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         margin-left: 0px;
+    }
+ 
+    .ShopingCardBody{   
+        width: 100%;
+        border-color: blue;
+    }
+    
+    .ShopingImageContainer{
+        width: 80%;
+    }
+
+    .Shopinghead{
+        font-size: 3.5vw;
+    }
+
+    .Shopingparagraph{
+        width: 90%;
+        text-align: center;
+    }
+    
+    .buttonContainer{
+        display: flex;
+        justify-content:center;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .ShopingImageContainer{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .ShopingImageContainer{
+        width: 70%;
+    }
+    .Shopinghead{
+        font-size: 4vw;
+    }
+
+    .mainContainer{
+        height:500px;
+    }
+}

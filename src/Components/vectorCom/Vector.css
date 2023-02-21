@@ -1,0 +1,142 @@
+
+.VecotrContainer{
+    float:right;
+    display:flex;
+    flex-direction:row;
+}
+
+.graphimage{
+    position:relative;
+    left:450px;
+    z-index:1;
+    top:100px
+}
+
+.boyvector{
+    position:relative;
+    left:350px;
+    top:50px
+}
+
+.shopingcart{
+    position:relative;
+    left:215px;
+    top:50px;
+    z-index:0
+}
+
+.shopingbag{
+    position:relative;
+    top:50px;
+    left:230px;
+    z-index:1
+}
+
+.girlvector{
+    position:relative;
+    top:-20px;
+    left:100px
+}
+
+.laptop{
+    position:relative;
+    top:-30px
+}
+
+@media screen and (max-width:900px) {
+    .VecotrContainer{
+        margin: auto;
+        margin-top: 150px;
+    }
+    .graphimage{
+        position:relative;
+        left:480px;
+        z-index:1;
+        top:100px
+    }
+    
+    .boyvector{
+        position:relative;
+        left:380px;
+        top:50px
+    }
+    
+    .shopingcart{
+        position:relative;
+        left:245px;
+        top:50px;
+        z-index:0
+    }
+    
+    .shopingbag{
+        position:relative;
+        top:50px;
+        left:260px;
+        z-index:1
+    }
+    
+    .girlvector{
+        position:relative;
+        top:-20px;
+        left:130px
+    }
+    
+    .laptop{
+        position:relative;
+        top:-30px;
+        left: 30px;
+    }
+}
+
+
+
+
+@media screen and (max-width:600px) {
+    .VecotrContainer{
+        margin-top: 150px;
+    }
+    .graphimage{
+        position:relative;
+        left:400px;
+        z-index:1;
+        top:100px;
+        width: 50px;
+    }
+    
+    .boyvector{
+        position:relative;
+        left:300px;
+        top:50px;
+        width: 250px;
+    }
+    
+    .shopingcart{
+        position:relative;
+        left:200px;
+        top:50px;
+        z-index:0;
+        width: 50px;
+    }
+    
+    .shopingbag{
+        position:relative;
+        top:100px;
+        left:200px;
+        z-index:1;
+        width: 60px;
+    }
+    
+    .girlvector{
+        position:relative;
+        top:-20px;
+        left:110px;
+        width:250px
+    }
+    
+    .laptop{
+        position:relative;
+        top:-30px;
+        left:20px;
+        width: 60px;
+    }
+}

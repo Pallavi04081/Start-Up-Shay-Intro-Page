@@ -1,0 +1,252 @@
+.imageLogo{
+  width:120px
+}
+
+.title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: black;
+}
+.card1 {
+  box-sizing: border-box;
+  width: 68px;
+  height: 29px;
+  top: 2733px;
+  background: #fff6f6;
+  border: 1px solid #000000;
+  border-radius: 10px;
+}
+.cardhead1 {
+  
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0.44%;
+
+  background: #635bff;
+}
+.line1 {
+    
+    width: 1270px;
+    height: 0px;
+    left: 85px;
+    top: 2531px;
+    
+  /* border: 1px solid #FFFFFF; */
+}
+
+.line01 {
+  border: 1px solid #110606;
+  transform: rotate(-0.09deg);
+}
+
+.line2 {
+    
+    width: 1270px;
+    height: 0px;
+    left: 85px;
+    top: 2865px;
+}
+
+.line02 {
+  /* border: 1px solid #FFFFFF; */
+  transform: rotate(-0.09deg);
+  border: 1px solid #000000;
+}
+
+.endline {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 27px;
+  color: black;
+  text-align: center;
+}
+
+.cart1 {
+  width: 198px;
+}
+
+.cart01 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  text-align: center;
+  color: #6d44bc;
+}
+
+.cartpara1 {
+  width: 120px;
+  height: 27px;
+}
+
+.cartpara01 {
+  font-family: "Poppins";
+  font-style: normal;
+  line-height: 27px;
+  text-align: center;
+  color:white;
+  font-size: 12px;
+}
+
+
+
+.headbg {
+  background: #635bff;
+}
+
+.atmCard{
+box-sizing: border-box;
+width: 68px;
+height: 29px;
+left: 85px;
+top: 2733px;
+}
+
+.FooterCard{
+height: 29px;
+width: 50px;
+border-radius: 10px;
+border: 1px solid;
+background: black;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+
+.FooterContainer{
+  padding:20px;
+  display:flex;
+  flex-direction:column;
+  width:calc(88% - 20px);
+  height: auto;
+  padding-left: 4%;
+  padding-right: 4%;
+  margin:auto;
+
+}
+
+.footerComponent{
+  margin-top: 100px;
+  width:100%;
+  display:flex;
+  flex-direction:row
+}
+
+.footerCardContainer{
+  width:25%;
+  display:grid;
+  grid-template-columns:auto auto auto auto;
+  padding:20px 0px;
+  row-gap:10px;
+  column-gap:10px;
+}
+
+.endbottom{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #2D3891;
+  border-top: 1px solid white;
+  color: white;
+}
+
+.logoContainer{
+  padding-top: 50px;
+}
+
+
+@media screen and (max-width:900px) {
+  
+  .imageLogo{
+    width:180px
+  }
+
+  .FooterContainer{
+    display: grid;
+    grid-template-rows: auto auto;
+  }
+
+  .logoContainer{
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+  }
+  
+  .logoContainer{
+    width: 100%;
+  }
+
+
+  .footerComponent{
+    width: 100%;
+    height: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .cart1{
+   font-size: 14px;
+    position: static;
+  }
+   
+}
+
+@media screen and (max-width:700px) {
+
+  .cart01{
+    font-size: 16px
+  }
+   
+   .footerCardContainer{
+    padding: 0px;
+    grid-template-columns: auto auto auto;
+   } 
+}
+
+@media screen and (max-width:500px){
+
+  .imageLogo{
+    width:150px
+  }
+
+  .footerCardContainer{
+    grid-template-columns: auto auto;
+    margin-left: 30px;
+   } 
+
+   .subtitle{
+    width: auto;
+
+   }
+
+   .FooterContainer{
+     padding: 10px 10px;
+  }
+
+  
+.endline {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 27px;
+  color:black;
+  text-align: center;
+}
+
+
+
+
+}
+

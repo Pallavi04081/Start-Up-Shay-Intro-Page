@@ -1,0 +1,136 @@
+
+.formContainer{
+    box-sizing:border-box;
+    padding:25px;
+    width:55%;
+    margin-top: 50px;
+    border-radius: 10px;
+    margin: auto;
+    background: white;
+    box-shadow: 3px 3px 3px 3px whitesmoke;
+
+}
+
+.textfield{
+    box-sizing: border-box;
+     width:100% 
+}
+
+.btnCom{
+    width:auto;
+    height:41px;
+    color:white;
+    width: 300px;
+    border-radius: 10px;
+    background: #5288F4;
+}
+
+.emailPhoneContainer{
+     display: flex;
+     flex-direction: row;
+     margin-top:20px
+}
+
+.phonefiled{
+    box-sizing: border-box;
+    width: 50%;
+    margin-right:25px 
+}
+
+.emailfield{
+    box-sizing: border-box;
+    width: 50%;
+    margin-left: 25px 
+}
+
+.formheading{
+    font-size:18px;
+    color: #2D3891;
+    width:97%;
+    text-align: center;
+    margin-top:20px;
+    line-height: 35px;
+    width: fit-content;
+    margin: auto;
+    border-bottom: 1px solid #2D3891;
+    font-weight: bold;
+}
+
+/* .text > :first-child{
+    width:100%;
+    color:black
+} */
+
+.inputfiled > :nth-child(2){
+    height: 40px; 
+    color: #878787;
+}
+
+.inputfiled label{
+ display: flex;
+    position: relative;
+    top:15px;
+    color: #878787; 
+    font-size: 14px;
+}
+
+.lableClass label{
+    font-size: 14px;
+    color: #878787;
+}
+
+.lableClass span{
+    font-size: 14px;
+}
+
+@media screen and (max-width:900px) {
+    .formContainer{
+        width: 70%;
+        background-color: #6D44BC;
+        color: white;
+        margin-top: -50px;
+    }
+
+
+
+    .btnCom{
+        background-color: white;
+        color: #6D44BC;
+    }
+
+    .text > :first-child {
+        border-bottom: 1px solid white;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .formContainer{
+        width: 90%;
+        background-color: blueviolet;
+        color: white;
+    }
+
+    .emailPhoneContainer{
+        display: flex;
+        flex-direction: column;
+        margin-top:20px
+   }
+
+   .emailfield{
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 20px
+   }
+
+   .phonefiled{
+    width: 100%;
+    margin-top: 20px
+   }
+
+}
+
+@media screen and (max-width:500px){
+    .formContainer{
+        width: 100%;
+    }
+}

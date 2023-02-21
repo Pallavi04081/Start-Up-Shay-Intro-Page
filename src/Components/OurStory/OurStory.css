@@ -1,0 +1,166 @@
+
+.StorymainContainer{
+    width:100%;
+    background-color: #EFF8FB;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 80px;
+}
+
+.StoryCardContainer{
+    display: flex;
+     flex-direction: row;
+     box-sizing: border-box;
+     padding-bottom: 39px;
+     margin-left: 20px
+}
+
+.StoryCardBody{   
+    width: 50%;
+    border-color: blue;
+}
+
+.StoryImageContainer{
+    width:50%;
+}
+
+.Storyhead{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 2.5vw;
+color:  #2D3891;
+text-align: justify;
+}
+
+.parbody{  
+width: 517px;
+}
+
+.Storyparagraph{
+font-family: 'Poppins';
+font-style: normal;
+font-size: 14px;
+line-height: 27px;
+color: black;
+}
+.Dbutton{
+    width: 135px;
+    height: 46px;
+    background: #6D44BC;
+    border-radius: 40px;
+}
+.Dtitale{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 60px;
+    /* identical to box height, or 240% */
+    
+    
+    color: #FFFFFF;
+    
+}
+
+@media screen and (max-width:900px){
+    
+    .body{
+        width: 100%;
+    }
+
+    .StoryCardContainer{
+         flex-direction: column;
+         margin-left: 0px;
+        
+    }
+    
+    
+    .Storyhead{
+        font-size: 3vw;
+         width: 100%;
+         text-align: center;
+        }
+
+        .Dbutton{
+            width: 40%;
+            height: 73px;
+            background: #6D44BC;
+            border-radius: 40px;
+        }
+
+   .ShopingCardBody{   
+    width: 100%;
+    border-color: blue;
+     }
+
+     .StoryImageContainer{
+        margin:auto;
+        margin-top: 30px;
+  }
+
+     .Storyhead{
+        text-align: center;
+    }
+
+     .Storyparagraph{
+        width: 70%;
+        text-align: center;
+        margin: auto;
+    }
+    
+    .StoryCardbuttonContainer{
+        display: flex;
+        justify-content:center;
+    }
+
+}
+
+@media screen and (max-width:700px) {
+
+    .StoryCardContainer{
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         margin-left: 0px;
+    }
+ 
+    .ShopingCardBody{   
+        width: 100%;
+        border-color: blue;
+    }
+    
+    .StoryImageContainer{
+        width: 80%;
+    }
+
+    .Storyhead{
+        font-size: 3.5vw;
+    }
+
+    .Storyparagraph{
+        width: 90%;
+        text-align: center;
+    }
+    
+    .StoryCardbuttonContainer{
+        display: flex;
+        justify-content:center;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .StoryImageContainer{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .StoryImageContainer{
+        width: 70%;
+    }
+    .Storyhead{
+        font-size: 4vw;
+    }
+}

@@ -1,0 +1,52 @@
+
+.BrandCard{
+height: 100px;
+box-sizing: border-box;
+margin-left: 20px;
+margin-bottom: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.heading{
+height: 38px;
+font-family: 'Poppins';
+margin:10px;
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 38px;
+color: black;
+margin-left: 20px;
+margin-bottom: 50px;
+}
+
+.BrandCardImage{
+    width:40%;
+    max-height: 70%;
+    margin:auto;
+}
+
+
+.cardgrid{
+    display:grid;
+    grid-template-columns:25% 25% 25% 25%;
+    width:100%
+}
+
+
+@media screen and (max-width:1000px) {
+    .BrandCardImage{
+        width:60%;
+    }
+
+
+}
+
+@media screen and (max-width:600px) {
+    
+    .cardgrid{
+        grid-template-columns: 50% 50%;
+    }
+}
