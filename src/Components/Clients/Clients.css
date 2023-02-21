@@ -20,3 +20,23 @@
     outline: none;
     box-shadow: inset 0 0 1px 0px violet;
   }
+
+  .SlidingComContainer{
+    width:60%;
+    margin:auto;
+    padding:20px
+  }
+
+  @media screen and (max-width:800px){
+
+   .SlidingComContainer{
+    width: 80%;
+   } 
+
+  }
+
+  @media screen and (max-width:600px) {
+    .SlidingComContainer{
+      width: 100%;
+    }
+  }

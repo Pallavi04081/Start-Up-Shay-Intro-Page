@@ -36,7 +36,7 @@ export default function TemporaryDrawer() {
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <List style={{background:"#E6E6FA",height:"100vh"}}>
-        {['Home', 'Contact us', 'About us', 'Download'].map((text, index) => (
+        {['Home', 'Contact us', 'About us', 'book a free consulation'].map((text, index) => (
           <ListItem key={text} style={{height:"10vh",borderBottom:"1px solid",marginLeft:"10px"}}>
             <ListItemButton >
               <Link to={LinkArray[index]} style={{textDecoration:"none"}}><ListItemText primary={text}  style={{fontSize:"12px",color:"#6D44BC",textAlign:"center"}}/></Link>

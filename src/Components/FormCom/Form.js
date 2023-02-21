@@ -21,7 +21,7 @@ const FormCom = () => {
 
   return (
     <>
-    <Box style={{width:"100%",paddingTop:"50px",background:"white",paddingBottom:"50px"}}>
+    <Box style={{width:"100%",paddingTop:"100px",background:"white",paddingBottom:"50px"}}>
       <Box class="formContainer">
         <Box style={{ width: "99%", margin: "auto",marginBottom:"10px" }}>
         <Typography class="formheading">Contact</Typography>

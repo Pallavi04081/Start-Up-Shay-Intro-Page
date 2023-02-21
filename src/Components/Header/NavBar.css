@@ -42,7 +42,10 @@
         display: unset;
         margin:auto
      }
-    
+     
+    .ButtonContainer{
+        display: none;
+    }
 
 
 }

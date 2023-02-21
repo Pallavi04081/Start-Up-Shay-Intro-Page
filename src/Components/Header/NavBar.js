@@ -15,12 +15,12 @@ function NavBar() {
     </Navbar.Brand>
     <Nav className="ComponentContainer" style={{padding:"auto"}}>
       <Navbar.Brand  style={{fontSize:"12px",display:"flex",justifyContent:"flex-end",fontWeight:"bold",marginTop:"10px"}}><Link to="/" style={{color:"black",textDecoration:"none"}}>Home</Link></Navbar.Brand >
-      <Navbar.Brand  style={{color:"black",fontSize:"12px",display:"flex",justifyContent:"flex-end",fontWeight:"bold",marginTop:"10px"}}><Link to="/contactus" style={{color:"black",textDecoration:"none"}}>About us</Link></Navbar.Brand >
+      <Navbar.Brand  style={{color:"black",fontSize:"12px",display:"flex",justifyContent:"flex-end",fontWeight:"bold",marginTop:"10px"}}><Link to="/aboutus" style={{color:"black",textDecoration:"none"}}>About us</Link></Navbar.Brand >
       <Navbar.Brand  style={{color:"black",fontSize:"12px",display:"flex",justifyContent:"flex-end",fontWeight:"bold",marginTop:"10px"}}><Link to="/aboutus" style={{color:"black",textDecoration:"none"}}>Service</Link></Navbar.Brand >
-      <Navbar.Brand  style={{color:"black",fontSize:"12px",display:"flex",justifyContent:"flex-end",fontWeight:"bold",marginTop:"10px"}}><Link to="/aboutus" style={{color:"black",textDecoration:"none"}}>Contact us</Link></Navbar.Brand >
+      <Navbar.Brand  style={{color:"black",fontSize:"12px",display:"flex",justifyContent:"flex-end",fontWeight:"bold",marginTop:"10px"}}><Link to="/Contactus" style={{color:"black",textDecoration:"none"}}>Contact us</Link></Navbar.Brand >
     </Nav>
     <Nav className='ButtonContainer'>
-    <Navbar.Brand  style={{color:"#6D44BC",fontSize:"14px",display:"flex",justifyContent:"center",fontWeight:"bold",height:"100%",paddingLeft:"0px",paddingRight:"0px",width:"70%"}}><a style={{width:"100%"}} href="#" target={'_blank'}><Button appearance="ghost" style={{width:"100%",color:"white",fontWeight:"bold",height:"100%",background:"#5288F4",fontSize:"12px"}}>book a free consulation</Button></a></Navbar.Brand>
+    <Navbar.Brand  style={{color:"#6D44BC",fontSize:"14px",display:"flex",justifyContent:"center",fontWeight:"bold",height:"100%",paddingLeft:"0px",paddingRight:"0px",width:"70%"}}><a style={{width:"100%"}} href="#" target={'_blank'}><Button appearance="ghost" style={{width:"100%",color:"white",fontWeight:"bold",height:"100%",background:"#5288F4",fontSize:"10px"}}>book a free consulation</Button></a></Navbar.Brand>
     </Nav>
     <Nav className="DrawerComponent">
       <TemporaryDrawer/>

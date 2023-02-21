@@ -3,7 +3,7 @@ import { Navbar, Nav, Button,Avatar,Grid} from 'rsuite';
 import "rsuite/dist/rsuite.css";
 // import Capablitycard from "./CapablityCard";
 import GridCardCom from "./GridCardCom";
-import "./ShopOnline.css";
+import "./Capability.css"
 
 const ShopOnline = () => {
 

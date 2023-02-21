@@ -65,7 +65,7 @@ color: black;
 
 @media screen and (max-width:900px){
     
-    .body{
+    .StoryCardbody{
         width: 100%;
     }
 
@@ -89,7 +89,7 @@ color: black;
             border-radius: 40px;
         }
 
-   .ShopingCardBody{   
+   .StoryCardBody{   
     width: 100%;
     border-color: blue;
      }

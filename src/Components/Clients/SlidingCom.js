@@ -26,7 +26,7 @@ function SlidingCom() {
 
 
   return (
-    <div style={{width:"60%",margin:"auto",padding:"20px"}}>
+    <div class="SlidingComContainer">
       <hr className="seperator" />
       <div className="carousel-wrapper">
         <Carousel breakPoints={breakPoints}>

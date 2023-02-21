@@ -10,10 +10,10 @@ export default function Teamcard({ele}) {
   return (
     <Card sx={{ maxWidth: "90%",margin:"auto",background:"white",borderRadius:"7px",display:"flex",flexDirection:"row"}}>
       <CardContent style={{width:"70%",paddingBottom:"30px"}}>
-        <Typography gutterBottom variant="h5" component="div" sx={{fontSize:"14px",width:"100%",fontWeight:"600",color:"#292525"}}>
+        <Typography className="ExeHead" gutterBottom variant="h5" component="div">
           {ele.heading}
         </Typography>
-        <Typography gutterBottom variant="h5" component="div" sx={{fontSize:"10px",width:"100%",color:"#2D3891",fontWeight:"bold"}}>
+        <Typography gutterBottom variant="h5" component="div" sx={{}}>
           {ele.subheading}
         </Typography>
         <Typography variant="body2" color="text.secondary" sx={{textAlign:"justify",fontSize:"12px",lineHeight:"24px"}}>

@@ -2,6 +2,7 @@ import {Grid,Box, Typography} from "@mui/material"
 import SlidingCom from "./SlidingCom"
 
 
+
 const Client = ()=>{
 
  return(

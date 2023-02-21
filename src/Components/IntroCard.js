@@ -1,8 +1,7 @@
 import React from "react";
 import { Navbar, Nav, Button } from 'rsuite';
-import Vector from "../Components/vectorCom/Vector"
 import "rsuite/dist/rsuite.css";
-import "./BusinessCard.css";
+import "./IntroCard.css";
 
 const BusinessCard = () => (
   <>
@@ -18,7 +17,7 @@ const BusinessCard = () => (
       </div>
     </div>
     <div className="bussinessImageContainer">
-           <img src="Group.png" style={{width:"80%",height:"90%",marginTop:"-5px",marginLeft:"-5px",float:"right"}}/>
+           <img src="Group.png" class="BussinessImage"/>
     </div>
   </div>
   <div style={{width:"100%",background:"#EFF8FB"}}>

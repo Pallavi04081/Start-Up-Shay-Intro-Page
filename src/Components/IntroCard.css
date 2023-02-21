@@ -59,6 +59,14 @@ line-height: 27px;
     
 }
 
+.BussinessImage{
+    width:80%;
+    height:90%;
+    margin-top:-5px;
+    margin-left:-5px;
+    float:right
+}
+
 @media screen and (max-width:900px){
     
     .mainContainer{
@@ -70,14 +78,19 @@ line-height: 27px;
     .bussinessCardContainer{
          flex-direction: column;
          margin-left: 0px;
-        
     }
     
+    .BussinessImage {
+        margin: auto;
+    }
     
     .head{
         font-size: 3vw;
-         width: 100%;
-         text-align: center;
+        width: 70%;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 20px;
+         
         }
 
         .Dbutton{
@@ -99,10 +112,11 @@ line-height: 27px;
   }
 
 
-     .bussinessparagraph{
+     .paragraph{
         width: 70%;
         text-align: center;
         margin: auto;
+        margin-bottom: 20px
     }
     
     .buttonContainer{
@@ -130,11 +144,16 @@ line-height: 27px;
 
     .head{
         font-size: 3.5vw;
+        width: 70%;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 20px;
     }
 
-    .bussinessparagraph{
+    .paragraph{
         width: 90%;
         text-align: center;
+        margin-bottom: 20px;
     }
     
     .buttonContainer{
@@ -148,7 +167,11 @@ line-height: 27px;
 @media screen and (max-width:500px) {
 
     .head{
-        font-size: 4vw;
+        font-size: 5vw;
+        width: 70%;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 20px;
     }
 
     .mainContainer{
